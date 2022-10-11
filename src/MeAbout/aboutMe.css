@@ -1,0 +1,48 @@
+.me-about .me-inner {
+    padding-left: 50px;
+}
+.dark h2 {
+    color: #fff;
+}
+.me-about .me-inner h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.me-about .me-inner p {
+    margin-bottom: 30px;
+}
+.me-tag {
+    word-break: break-all;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.me-tag ul li {
+    margin: 0px 6px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 4px 0px;
+    display: inline-block;
+}
+.me-tag ul li span {
+    border: 1px solid #0bceaf;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+.me-about .me-inner .btn {
+    background-color: #0bceaf;
+    margin-top: 20px;
+}
+
+.me-about .me-inner .btn .bi {
+    margin-left: 10px;
+}
+.dropdown-menu a{
+    color: #fff;
+    padding: 8px 30px;
+    font-weight: bold;
+    margin-top: 0px !important;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #0bceaf !important;
+    background-color: #fff !important;
+}

@@ -1,0 +1,107 @@
+.titleMe h3 {
+    margin-bottom: 60px;
+}
+
+.grid-item {
+    margin-bottom: 20px;
+}
+/*Prueba*/
+.figu .tile {
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+    opacity: 0.99;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 5%);
+    
+}
+.figu .tile:before {
+    content: '';
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+    width: 100%;
+    height: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 2;
+    transition-property: top, opacity;
+    transition-duration: 0.3s;
+}
+.figu .tile .details {
+    font-size: 16px;
+    padding: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+.figu .tile .details span {
+    display: block;
+    opacity: 0;
+    position: relative;
+    top: 100px;
+    transition-property: top, opacity;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+}
+.figu .tile .details .title {
+    line-height: 1;
+    font-weight: 600;
+    font-size: 18px;
+}
+.figu .tile .details .info {
+    line-height: 1.2;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.figu .tile:focus:before, .figu .tile:hover:before, .figu .tile:focus span, .figu .tile:hover span {
+    opacity: 1;
+}
+.figu .tile:focus:before, .figu .tile:hover:before {
+    top: 50%;
+}
+.figu .tile:focus span, .figu .tile:hover span {
+    top: 0;
+}
+.figu .tile:focus .title, .figu .tile:hover .title {
+    transition-delay: 0.15s;
+}
+.figu .tile:focus .info, .figu .tile:hover .info {
+    transition-delay: 0.25s;
+}
+
+
+/*My Modal*/
+.modal-dialog-scrollable .modal-content {
+    max-height: 80%;
+}
+.img-desc-proyects img {
+    margin-bottom: 20px;
+}
+.proyects-inner {
+    margin-right: 20px;
+}
+.proyects-inner h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.modal-body{
+    padding: 1.5rem;
+}
+
+.figu  img
+{
+    position: relative;
+    max-width: 100%;
+    display: block;
+}
+
+@media only screen and (max-width: 575px){
+    .mo {
+        margin-top: 60px;
+    }
+}

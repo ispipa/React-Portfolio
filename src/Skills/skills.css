@@ -1,0 +1,108 @@
+
+.skills .me-skill h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+@media only screen and (max-width: 575px){
+    .skills .me-skill  {
+        margin-bottom: 50px;
+        padding: 0 15px;
+    }
+}
+
+
+.lenjuages {
+    position: relative;
+    margin-bottom: 15px;
+}
+.lenjuages .contenedor {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+.lenjuages .contenedor .info {
+    position: relative;
+}
+
+.lenjuages .contenedor .info .name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.lenjuages .contenedor .info .porcentaje-letra {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+.dark .lenjuages .contenedor .progreso {
+    background: rgba(199, 198, 198, 0.6);
+}
+.lenjuages .contenedor .progreso {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    margin: 30px 0 2px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.lenjuages .contenedor .porcentaje {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #0bceaf;
+    -webkit-transition: 3s all;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: animationProgress;
+}
+
+
+.me-skills h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.me-profesional li {
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    width: 48%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.me-progreso {
+    margin-bottom: 10px;
+    font: 900 1.1428571429em/1 Cinzel, cursive;
+}
+
+.me-progreso.progress-circle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.dark .me-progreso path:nth-child(1) {
+    stroke: rgba(255, 255, 255, 0.5);
+}
+.me-progreso path:nth-child(2) {
+    stroke: #0bceaf;
+}
+.me-progreso .text {
+    color: inherit !important;
+}

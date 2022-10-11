@@ -1,0 +1,74 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  overflow-y:scroll;
+}
+/*scrool*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #0bceaf;
+  border-radius: 5px;
+} 
+
+.dark {
+  background-color: #100e17;
+}
+body{
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  line-height: 24px;
+  font-weight: 500;
+  overflow-x: hidden !important;
+  text-align: left;
+  position: relative;
+  color: #999999;
+  opacity: 0.9;
+}
+.dark div {
+  color: #fff;
+}
+.dark span {
+  color: #fff;
+}
+.separator{
+  padding: 100px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+ol, ul {
+  padding-left: 0px !important; 
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+p {
+  opacity: 0.9;
+}
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+  padding: 0px;
+  background-color: transparent;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  color: #000;
+  opacity: 0.9;
+}
