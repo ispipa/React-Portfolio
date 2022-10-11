@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.7c4bd7ea.css",
+    "main.js": "/React-Portfolio/static/js/main.222c21d0.js",
+    "static/js/787.202b8111.chunk.js": "/React-Portfolio/static/js/787.202b8111.chunk.js",
+    "static/media/wordpress_02.png": "/React-Portfolio/static/media/wordpress_02.58d075a3f0fc58aa5636.png",
+    "static/media/github.jpg": "/React-Portfolio/static/media/github.2aee53db1130f57b97e4.jpg",
+    "static/media/laravel_02.png": "/React-Portfolio/static/media/laravel_02.984d939ac5c6abe61186.png",
+    "static/media/wordpress.jpg": "/React-Portfolio/static/media/wordpress.dc950d7506354ef56e6d.jpg",
+    "static/media/FotoWebDefinitivo-removebg.png": "/React-Portfolio/static/media/FotoWebDefinitivo-removebg.3aa20840b1be1000bdf0.png",
+    "static/media/github_01.png": "/React-Portfolio/static/media/github_01.fda0fb36beba319a3464.png",
+    "static/media/github_02.png": "/React-Portfolio/static/media/github_02.d35160a64e00588c2787.png",
+    "static/media/wordpress_01.png": "/React-Portfolio/static/media/wordpress_01.553c86f2dc794e4f3402.png",
+    "static/media/laravel_01.png": "/React-Portfolio/static/media/laravel_01.5da83c620a9a992df130.png",
+    "static/media/laravel.jpg": "/React-Portfolio/static/media/laravel.28b95000676e8cad1e3a.jpg",
+    "static/media/programmer.png": "/React-Portfolio/static/media/programmer.937012a22382e74fa91c.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.7c4bd7ea.css.map": "/React-Portfolio/static/css/main.7c4bd7ea.css.map",
+    "main.222c21d0.js.map": "/React-Portfolio/static/js/main.222c21d0.js.map",
+    "787.202b8111.chunk.js.map": "/React-Portfolio/static/js/787.202b8111.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c4bd7ea.css",
+    "static/js/main.222c21d0.js"
+  ]
+}
