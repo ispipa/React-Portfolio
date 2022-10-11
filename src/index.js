@@ -19,7 +19,7 @@ modals.render(
 const header = ReactDOM.createRoot(document.getElementById('header'));
 header.render(
     <React.StrictMode>
-        <Header />
+        <Header value={["#introduccion","#sobre-mi","#habilidades","#educacion-experiencia","#proyectos"]} text={["Home","Sobre mi","Skills","Experiencia","Proyectos"]}/>
     </React.StrictMode>
 );
 

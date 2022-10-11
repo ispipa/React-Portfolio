@@ -34,7 +34,6 @@ $(window).on('scroll', function()
 {
     if(window.innerWidth >= 992)
     {
-        console.log("985");
         var scroll = $(window).scrollTop();
         if (scroll >= 50) {
             $(".nav-header").addClass("navStrict");
