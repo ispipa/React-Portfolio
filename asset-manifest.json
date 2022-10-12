@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.351d62a5.css",
+    "main.css": "/React-Portfolio/static/css/main.a82c3c28.css",
     "main.js": "/React-Portfolio/static/js/main.38185152.js",
     "static/js/787.202b8111.chunk.js": "/React-Portfolio/static/js/787.202b8111.chunk.js",
     "static/media/wordpress_02.png": "/React-Portfolio/static/media/wordpress_02.58d075a3f0fc58aa5636.png",
@@ -15,12 +15,12 @@
     "static/media/laravel.jpg": "/React-Portfolio/static/media/laravel.28b95000676e8cad1e3a.jpg",
     "static/media/programmer.png": "/React-Portfolio/static/media/programmer.937012a22382e74fa91c.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.351d62a5.css.map": "/React-Portfolio/static/css/main.351d62a5.css.map",
+    "main.a82c3c28.css.map": "/React-Portfolio/static/css/main.a82c3c28.css.map",
     "main.38185152.js.map": "/React-Portfolio/static/js/main.38185152.js.map",
     "787.202b8111.chunk.js.map": "/React-Portfolio/static/js/787.202b8111.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.351d62a5.css",
+    "static/css/main.a82c3c28.css",
     "static/js/main.38185152.js"
   ]
 }
