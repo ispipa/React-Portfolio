@@ -20,6 +20,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .nav-header {
@@ -39,7 +40,6 @@
 }
 
 .navStrict {
-    z-index: 99;
     background-color: #0bceaf;
 
 }
@@ -49,8 +49,8 @@
 
 @media only screen and (max-width: 992px){
 .navbar-toggler {
-        background-color: aliceblue;
-        padding: 15px;
+        background-color: aliceblue !important;
+        padding: 15px !important;
         margin-right: 15px;
         margin-left: 15px;
         margin-top: 30px;
@@ -70,6 +70,6 @@
 
 }
 .navbar {
-    box-shadow: 0 0px 0px 0;
-    padding-top: 0rem;
+    box-shadow: 0 0px 0px 0 !important;
+    padding-top: 0rem !important;
 }
