@@ -105,3 +105,13 @@
         margin-top: 60px;
     }
 }
+.exception{
+    padding: 200px 0 ;
+    margin-bottom: 3rem ;
+}
+@media only screen and (max-width: 576px){
+    .exception {
+        padding: 100px 0 ;
+        margin-bottom: 0rem;
+    }
+}

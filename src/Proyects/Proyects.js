@@ -6,9 +6,9 @@ import wordpress from './../assets/portfolio/wordpress.jpg';
 
 const Proyects = () => {
   return (
-    <div  className="proyects">
+    <div  className="proyects exception">
         <div className="container">
-            <div className="row separator">
+            <div className="row  ">
                 <div className="part col-sm-12">
                     <div className="titleMe col-sm-12 text-center aos-init" data-aos="zoom-in-down" data-aos-duration="2000" >
                         <h3>Proyectos</h3>

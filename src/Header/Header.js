@@ -16,6 +16,24 @@ const Header = (props) => {
   useEffect(() => {
     const onScroll = e => {
       setScrollTop(e.target.documentElement.scrollTop);
+      let setionId = Object.values(e.target.documentElement.childNodes[2].childNodes);
+      let array = [];
+      setionId.map((item, i) => {return (
+          (item.id !== undefined && item.id !== "") && i >= 5  ?array.push(item) : "elemento undefined"
+      )});
+        var element_height = 400;
+        for (let index = 0; index < array.length; index++) {
+          //var screenPosition = array[index] !== undefined ? array[index].getBoundingClientRect() : false;
+          var screenPosition =  array[index].getBoundingClientRect();
+          //if(screenPosition){
+            var positive =  Math.round(Math.abs(screenPosition.top));
+            var divided = positive / element_height;
+            var round = Math.round(divided);
+            if(round == 0){
+                HandleNavItemClicked(index)
+            //}
+          }
+        }
       setWidth(window.innerWidth);
     };
     window.addEventListener("scroll", onScroll);
@@ -55,7 +73,7 @@ const Header = (props) => {
     setNavItemActive(updatedCheckedState);
     if(Width <= 991)
     {
-      setNavbarToggler(navbarToggler === false  ? true : false)
+      setNavbarToggler(false)
       setNavStrict("nav-header");
     }
    }
@@ -65,7 +83,7 @@ const Header = (props) => {
     {
         setNavbarToggler(navbarToggler === false  ? true : false)
         if(navbarToggler === false){
-          setNavStrict("nav-header navStrict") 
+          setNavStrict("nav-header navStrict")
         }
         else{
           setNavStrict("nav-header")

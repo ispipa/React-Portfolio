@@ -6,7 +6,7 @@ const EducationExperience = () => {
   <section className="education-experience">
       <div className="bolor-overlay">
         <div className="container">
-            <div className="row separator">
+            <div className="row row separator">
               <div className="col-sm-12 col-md-6">
                 <div className="mh-education">
                   <h3 className="text-center aos-init" data-aos="zoom-out-up" data-aos-duration="2000" >Educacion</h3>

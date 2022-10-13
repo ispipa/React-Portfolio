@@ -8,7 +8,7 @@ const MeAbout = () => {
   return (
     <div className="me-about">
       <div className="container">
-        <div className="row separator">
+        <div className="row  separator">
           <div className="col-sm-12 col-md-6 aos-init" data-aos="zoom-in-right" data-aos-duration="2000" >
             <div >
               <img src={programmer} alt="" class="img-fluid" />

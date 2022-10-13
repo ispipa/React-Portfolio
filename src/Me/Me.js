@@ -6,7 +6,7 @@ const Me = () => {
   return (
     <div className="me">
         <div className="container">
-          <div className="row  me-padding">
+          <div className="row  separator">
             <div className="col-sm-6">
               <div className="me-info">
                   <div className="me-promo" data-aos="fade-zoom-in"  data-aos-duration="1500" >
