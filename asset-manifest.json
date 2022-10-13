@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.a82c3c28.css",
-    "main.js": "/React-Portfolio/static/js/main.38185152.js",
+    "main.js": "/React-Portfolio/static/js/main.bd2ea169.js",
     "static/js/787.202b8111.chunk.js": "/React-Portfolio/static/js/787.202b8111.chunk.js",
     "static/media/wordpress_02.png": "/React-Portfolio/static/media/wordpress_02.58d075a3f0fc58aa5636.png",
     "static/media/github.jpg": "/React-Portfolio/static/media/github.2aee53db1130f57b97e4.jpg",
     "static/media/laravel_02.png": "/React-Portfolio/static/media/laravel_02.984d939ac5c6abe61186.png",
     "static/media/wordpress.jpg": "/React-Portfolio/static/media/wordpress.dc950d7506354ef56e6d.jpg",
+    "static/media/CV_Ismael_Cruz_Cabezas_Desarrollo_Aplicaciones_Multiplataforma.pdf": "/React-Portfolio/static/media/CV_Ismael_Cruz_Cabezas_Desarrollo_Aplicaciones_Multiplataforma.660b8ab0fdc05fd62752.pdf",
     "static/media/FotoWebDefinitivo-removebg.png": "/React-Portfolio/static/media/FotoWebDefinitivo-removebg.3aa20840b1be1000bdf0.png",
+    "static/media/CV_Ismael_Cruz_Cabezas.pdf": "/React-Portfolio/static/media/CV_Ismael_Cruz_Cabezas.8640bf4e50156b4b2672.pdf",
     "static/media/github_01.png": "/React-Portfolio/static/media/github_01.fda0fb36beba319a3464.png",
     "static/media/github_02.png": "/React-Portfolio/static/media/github_02.d35160a64e00588c2787.png",
     "static/media/wordpress_01.png": "/React-Portfolio/static/media/wordpress_01.553c86f2dc794e4f3402.png",
@@ -16,11 +18,11 @@
     "static/media/programmer.png": "/React-Portfolio/static/media/programmer.937012a22382e74fa91c.png",
     "index.html": "/React-Portfolio/index.html",
     "main.a82c3c28.css.map": "/React-Portfolio/static/css/main.a82c3c28.css.map",
-    "main.38185152.js.map": "/React-Portfolio/static/js/main.38185152.js.map",
+    "main.bd2ea169.js.map": "/React-Portfolio/static/js/main.bd2ea169.js.map",
     "787.202b8111.chunk.js.map": "/React-Portfolio/static/js/787.202b8111.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a82c3c28.css",
-    "static/js/main.38185152.js"
+    "static/js/main.bd2ea169.js"
   ]
 }
