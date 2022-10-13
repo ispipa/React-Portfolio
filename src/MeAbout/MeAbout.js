@@ -1,6 +1,8 @@
 import React from 'react'
 import   './aboutMe.css';
 import programmer from './../assets/CV/programmer.png';
+import pdf1 from './../assets/CV/CV_Ismael_Cruz_Cabezas_Desarrollo_Aplicaciones_Multiplataforma.pdf';
+import pdf2 from './../assets/CV/CV_Ismael_Cruz_Cabezas.pdf';
 
 const MeAbout = () => {
   return (
@@ -34,8 +36,8 @@ const MeAbout = () => {
               </div>
                 <a  className="btn btn-fill dropdown-toggle" data-bs-toggle="dropdown">Downlaod CV</a>
                 <div className="dropdown-menu">
-                    <a  className="dropdown-item btn btn-fill" href="CV/CV_Ismael_Cruz_Cabezas_Desarrollo_Aplicaciones_Multiplataforma.pdf" >CV version_1<i class="bi bi-download"></i></a>
-                    <a  className="dropdown-item btn btn-fill" href="CV/CV_Ismael_Cruz_Cabezas.pdf"  >CV version_2<i class="bi bi-download"></i></a>
+                    <a  className="dropdown-item btn btn-fill" href={pdf1} >CV version_1<i class="bi bi-download"></i></a>
+                    <a  className="dropdown-item btn btn-fill" href={pdf2} >CV version_2<i class="bi bi-download"></i></a>
                 </div>
           </div>
           </div>
