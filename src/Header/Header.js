@@ -16,12 +16,15 @@ const Header = (props) => {
   useEffect(() => {
     const onScroll = e => {
       setScrollTop(e.target.documentElement.scrollTop);
-      let setionId = Object.values(e.target.documentElement.childNodes[2].childNodes);
+      //git pages e.target.documentElement.childNodes[1].childNodes  localhost e.target.documentElement.childNodes[2].childNodes
+      let setionId = Object.values(e.target.documentElement.childNodes[1].childNodes);
       let array = [];
+      // 5 localhost   git pages  2
       setionId.map((item, i) => {return (
-          (item.id !== undefined && item.id !== "") && i >= 5  ?array.push(item) : "elemento undefined"
+          (item.id !== undefined && item.id !== "") && i >= 2  ? array.push(item) : "elemento undefined"
       )});
-        var element_height = 400;
+      //git pages 200 50  localhost 400
+        var element_height = 50;
         for (let index = 0; index < array.length; index++) {
           //var screenPosition = array[index] !== undefined ? array[index].getBoundingClientRect() : false;
           var screenPosition =  array[index].getBoundingClientRect();
@@ -31,20 +34,23 @@ const Header = (props) => {
             var round = Math.round(divided);
             if(round == 0){
                 HandleNavItemClicked(index)
+                //console.log(round + " esta en la section " + index)
             //}
           }
+          //console.log(round + " se supone q no va porque " +  index)
         }
       setWidth(window.innerWidth);
     };
     window.addEventListener("scroll", onScroll);
     if(Width >= 991){
-      if(scrollTop >= 50)
+      scrollTop >= 50 ? setNavStrict("nav-header navStrict") : setNavStrict("nav-header")
+      /*if(scrollTop >= 50)
       {
         setNavStrict("nav-header navStrict")
       }
       else{
         setNavStrict("nav-header")
-      }
+      }*/
     }
     return () => window.removeEventListener("scroll", onScroll);
   }, [scrollTop]);

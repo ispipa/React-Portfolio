@@ -88,8 +88,8 @@
 }
 @media only screen and (max-width: 576px){
     .me-padding {
-        flex-direction: column-reverse;
-        padding: 60px 0;
+        flex-direction: column-reverse !important;
+        padding: 60px 0 !important;
     }
 }
 
