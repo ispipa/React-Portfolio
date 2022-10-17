@@ -23,8 +23,8 @@ const Header = (props) => {
       setionId.map((item, i) => {return (
           (item.id !== undefined && item.id !== "") && i >= 2  ? array.push(item) : "elemento undefined"
       )});
-      //git pages 200 50  localhost 400
-        var element_height = 50;
+      //git pages  400  localhost 400
+        var element_height = 400;
         for (let index = 0; index < array.length; index++) {
           //var screenPosition = array[index] !== undefined ? array[index].getBoundingClientRect() : false;
           var screenPosition =  array[index].getBoundingClientRect();
