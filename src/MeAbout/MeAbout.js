@@ -18,7 +18,7 @@ const MeAbout = () => {
           <div className="col-sm-12 col-md-6 aos-init">
             <div className="me-inner" data-aos="zoom-in-left"   data-aos-duration="2000" >
               <h2>Sobre mi</h2>
-              <p>Nacido en Bolivia, Cochabamba en 2001. Soy una persona con recursos y creativa, empática, responsable frente al trabajo y meticulosa que me gradué de la escuela Superior de Imagen y Sonido donde estudé una grado superior en desarrollo de aplicaciones multiplataformas, realice las prácticas donde obtuve una pequeña experiencia en desarrollo de webs más en concreto WordPress, estuve a cargo de realizar las maquetaciones, modificaciones y programación en PHP.</p>
+              <p>Nací en Bolivia, Cochabamba en 2001. Soy una persona con recursos y creativa, empática, responsable frente al trabajo y meticulosa que me gradué de la escuela Superior de Imagen y Sonido donde estudé una grado superior en desarrollo de aplicaciones multiplataformas, realice las prácticas donde obtuve una pequeña experiencia en desarrollo de webs más en concreto WordPress, estuve a cargo de realizar las maquetaciones, modificaciones y programación en PHP.</p>
               <div className="me-tag" >
                   <ul>
                       <li><span>PHP</span></li>
