@@ -264,6 +264,9 @@ const Modals = () => {
                       <li>
                         <span>JavaScript</span>
                       </li>
+                      <li>
+                        <span>MySQL</span>
+                      </li>
                     </ul>
                   </div>
                   <a
