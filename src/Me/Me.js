@@ -17,7 +17,6 @@ const Me = () => {
                     multiplataforma</h4>
                   <ul  data-aos="fade-zoom-in" data-aos-anchor-placement="center-center">
                       <li><a href="mailto:"><i class="bi bi-envelope"></i>cruzcabezasismael@gmail.com</a></li>
-                      <li><a href="callto:"><i class="bi bi-telephone"></i>+34 610 22 93 75</a></li>
                       <li ><a href="https://www.google.com/maps/d/viewer?msa=0&mid=1N5fsrAg3JLl7ZHKsF5g3DuCKYRo&ll=40.36551897425216%2C-3.5799434999999935&z=11"><i class="bi bi-geo-alt"></i>Madrid, España</a></li>
                   </ul>
                   <ul class="social-icon" data-aos="fade-zoom-in" data-aos-anchor-placement="center-center">
