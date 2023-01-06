@@ -3,6 +3,7 @@ import   './proyects.css';
 import github from './../assets/portfolio/github.jpg';
 import laravel from './../assets/portfolio/laravel.jpg';
 import wordpress from './../assets/portfolio/wordpress.jpg';
+import react from './../assets/portfolio/react.jpg';
 
 const Proyects = () => {
   return (
@@ -39,6 +40,15 @@ const Proyects = () => {
                                     <img src={wordpress} className="rounded mb-1"/>
                                     <div className="details">
                                         <span className="title">Desarrollo en WordPress</span>
+                                        <span className="info"><i className="fs-2 bi bi-wordpress"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="col-md-4 col-sm-6 col-xs-12 figu aos-init" data-aos="fade-up" data-aos-duration="2000" >
+                                <a className="tile" alt="React" data-mdb-toggle="modal" data-mdb-target="#react">
+                                    <img src={react} className="rounded mb-1"/>
+                                    <div className="details">
+                                        <span className="title">Desarrollo en React</span>
                                         <span className="info"><i className="fs-2 bi bi-wordpress"></i></span>
                                     </div>
                                 </a>

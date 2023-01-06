@@ -6,6 +6,8 @@ import laravel_01 from './../assets/portfolio/laravel_01.png';
 import laravel_02 from './../assets/portfolio/laravel_02.png';
 import wordpress_01 from './../assets/portfolio/wordpress_01.png';
 import wordpress_02 from './../assets/portfolio/wordpress_02.png';
+import react_01 from './../assets/portfolio/react_01.png';
+import react_02 from './../assets/portfolio/react_02.png';
 
 const Modals = () => {
 
@@ -219,6 +221,72 @@ const Modals = () => {
                       className="img-fluid"
                     />
                     <p>Algunas cards de muestra.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+          className="modal fade"
+          id="react"
+          data-mdb-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="reactLabel"
+          aria-hidden="true"
+      >
+        <div className="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+          <div
+              className="modal-content proyects-inner"
+              style={{ background: "#282828" }}
+          >
+            <div className="modal-body">
+              <i className="fs-2 bi bi-x-circle" data-mdb-dismiss="modal"></i>
+              <div className="row">
+                <div className="col-sm-5">
+                  <h2>Proyecto de una red social realizada en React</h2>
+                  <p>
+                    Trabaje durante la maquetación añadiendo el nav, los estilos
+                    y en unas pequeñas animaciones.
+                  </p>
+                  <div className="me-tag">
+                    <ul>
+                      <li>
+                        <span>PHP</span>
+                      </li>
+                      <li>
+                        <span>HTML</span>
+                      </li>
+                      <li>
+                        <span>CSS</span>
+                      </li>
+                      <li>
+                        <span>WordPress</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <a
+                      href="https://soziali.netlify.app"
+                      className="btn btn-fill"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+                <div className="col-sm-7 text-center mo">
+                  <div className="img-desc-proyects">
+                    <img
+                        src={react_01}
+                        alt="img04"
+                        className="img-fluid"
+                    />
+                    <p>Pantalla principal con unos temas.</p>
+                    <img
+                        src={react_02}
+                        alt="img04"
+                        className="img-fluid"
+                    />
+                    <p>Pantalla de un tema con su hilo y los comentarios del propio hilo.</p>
                   </div>
                 </div>
               </div>
