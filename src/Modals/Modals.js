@@ -247,8 +247,8 @@ const Modals = () => {
                 <div className="col-sm-5">
                   <h2>Proyecto de una red social realizada en React</h2>
                   <p>
-                    Trabaje durante la maquetación añadiendo el nav, los estilos
-                    y en unas pequeñas animaciones.
+                    Trabaje sobretodo en el backend, modifique los estilos
+                    para que tenga un diseño responsive.
                   </p>
                   <div className="me-tag">
                     <ul>
@@ -262,7 +262,7 @@ const Modals = () => {
                         <span>CSS</span>
                       </li>
                       <li>
-                        <span>WordPress</span>
+                        <span>JavaScript</span>
                       </li>
                     </ul>
                   </div>

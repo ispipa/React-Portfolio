@@ -49,7 +49,7 @@ const Proyects = () => {
                                     <img src={react} className="rounded mb-1"/>
                                     <div className="details">
                                         <span className="title">Desarrollo en React</span>
-                                        <span className="info"><i className="fs-2 bi bi-wordpress"></i></span>
+                                        <span className="info"><i className="fa-brands  fa-react"></i></span>
                                     </div>
                                 </a>
                             </div>

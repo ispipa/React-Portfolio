@@ -120,6 +120,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.fa-react {
+    font-size: 30px;
+}
 
 .me .me-info h2 {
     font-size: 60px;
