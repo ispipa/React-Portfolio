@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.3301bcbd.css",
-    "main.js": "/React-Portfolio/static/js/main.f8588026.js",
+    "main.js": "/React-Portfolio/static/js/main.bcc6fdd6.js",
     "static/js/787.202b8111.chunk.js": "/React-Portfolio/static/js/787.202b8111.chunk.js",
     "static/media/react.jpg": "/React-Portfolio/static/media/react.861ddee1058b23ed1a22.jpg",
     "static/media/wordpress_02.png": "/React-Portfolio/static/media/wordpress_02.58d075a3f0fc58aa5636.png",
     "static/media/github.jpg": "/React-Portfolio/static/media/github.2aee53db1130f57b97e4.jpg",
     "static/media/laravel_02.png": "/React-Portfolio/static/media/laravel_02.984d939ac5c6abe61186.png",
     "static/media/wordpress.jpg": "/React-Portfolio/static/media/wordpress.dc950d7506354ef56e6d.jpg",
-    "static/media/CV_Ismael_Cruz_Cabezas_Desarrollo_Aplicaciones_Multiplataforma.pdf": "/React-Portfolio/static/media/CV_Ismael_Cruz_Cabezas_Desarrollo_Aplicaciones_Multiplataforma.03b65820e1532abf9ef4.pdf",
     "static/media/FotoWebDefinitivo-removebg.png": "/React-Portfolio/static/media/FotoWebDefinitivo-removebg.3aa20840b1be1000bdf0.png",
+    "static/media/CV_Ismael_Cruz_Cabezas_Desarrollo_Aplicaciones_Multiplataforma.pdf": "/React-Portfolio/static/media/CV_Ismael_Cruz_Cabezas_Desarrollo_Aplicaciones_Multiplataforma.fed478dd68a0405c224c.pdf",
     "static/media/react_01.png": "/React-Portfolio/static/media/react_01.0cbe1442404ed3744b8e.png",
     "static/media/CV_Ismael_Cruz_Cabezas.pdf": "/React-Portfolio/static/media/CV_Ismael_Cruz_Cabezas.8640bf4e50156b4b2672.pdf",
     "static/media/github_01.png": "/React-Portfolio/static/media/github_01.fda0fb36beba319a3464.png",
@@ -20,11 +20,11 @@
     "static/media/laravel.jpg": "/React-Portfolio/static/media/laravel.28b95000676e8cad1e3a.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.3301bcbd.css.map": "/React-Portfolio/static/css/main.3301bcbd.css.map",
-    "main.f8588026.js.map": "/React-Portfolio/static/js/main.f8588026.js.map",
+    "main.bcc6fdd6.js.map": "/React-Portfolio/static/js/main.bcc6fdd6.js.map",
     "787.202b8111.chunk.js.map": "/React-Portfolio/static/js/787.202b8111.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3301bcbd.css",
-    "static/js/main.f8588026.js"
+    "static/js/main.bcc6fdd6.js"
   ]
 }
