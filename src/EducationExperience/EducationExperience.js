@@ -11,6 +11,11 @@ const EducationExperience = () => {
                 <div className="mh-education">
                   <h3 className="text-center aos-init" data-aos="zoom-out-up" data-aos-duration="2000" >Educacion</h3>
                  <div className="me-details">
+
+                     <div className="me-education bg aos-init" data-aos="flip-up" data-aos-duration="2000" >
+                         <h4>Bootcamp Desarrollo Web Full Stack from <a href="https://larueca.info/">La Rueca</a></h4>
+                         <div className="year">2022-2022</div>
+                     </div>
                   
                      <div className="me-education bg aos-init" data-aos="flip-up" data-aos-duration="2000" >
                          <h4>Técnico superior en desarrollo de aplicaciones multiplataforma from <a href="https://www.escuelaces.com/">Escuela Superior de Imagen y Sonido</a></h4>
@@ -21,6 +26,7 @@ const EducationExperience = () => {
                          <h4>Bachillerato de Ciencias de la Tecnología from <a href="https://padrepiquer.es//"> Centro de Formación Padre Piquer</a></h4>
                          <div className="year">2005-2008</div>
                      </div>
+
                  </div>
                 </div>
               </div>
