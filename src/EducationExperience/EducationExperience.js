@@ -30,7 +30,7 @@ const EducationExperience = () => {
                  <div className="me-details">
 
                      <div className="me-education bg aos-init" data-aos="flip-down" data-aos-duration="3000" >
-                         <h4>Prácticas de desarrollador de aplicaciones multiplataforma <a href="https://jaqueasesores.com/">Jaque Asesores. Madrid</a></h4>
+                         <h4>Prácticas, desarrollador de aplicaciones multiplataforma <a href="https://jaqueasesores.com/">Jaque Asesores. Madrid</a></h4>
                          <div className="year">Abril 2022-Junio 2022</div>
                          <span>Responsabilidad :</span>
                          <ul className="work-responsibility">
@@ -39,7 +39,21 @@ const EducationExperience = () => {
                              <li><i className="bi bi-circle"></i>Maquetación de las webs</li>
                              <li><i className="bi bi-circle"></i>Programación en PHP</li>
                          </ul>
-                     </div>                                
+                     </div>
+
+                     <div className="me-education bg aos-init" data-aos="flip-down" data-aos-duration="3000" >
+                         <h4>Prácticas, desarrollador full stack <a href="https://immersivepro.es/">Immersivepro. Madrid</a></h4>
+                         <div className="year">Enero 2023-Actualmente</div>
+                         <span>Responsabilidad :</span>
+                         <ul className="work-responsibility">
+                             <li><i className="bi bi-circle"></i>Desarrollo de proyectos en React</li>
+                             <li><i className="bi bi-circle"></i>Nociones de Dolibar</li>
+                             <li><i className="bi bi-circle"></i>Visualización de modelos 3d en React utilizando la librería React Fiber</li>
+                             <li><i className="bi bi-circle"></i>Procesos de automatización(powerautomate)</li>
+                             <li><i className="bi bi-circle"></i>Soporte a la empresa Dynatec con Dynamics 365</li>
+                         </ul>
+                     </div>
+
                  </div>
                 </div>
               </div>

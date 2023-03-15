@@ -14,6 +14,8 @@ const Header = (props) => {
 
   //controla el scroll de la pantalla
   useEffect(() => {
+
+      console.log(React.version)
     const onScroll = e => {
       setScrollTop(e.target.documentElement.scrollTop);
       //git pages e.target.documentElement.childNodes[1].childNodes  localhost e.target.documentElement.childNodes[2].childNodes
