@@ -9,7 +9,7 @@ const EducationExperience = () => {
             <div className="row row separator">
               <div className="col-sm-12 col-md-6">
                 <div className="mh-education">
-                  <h3 className="text-center aos-init" data-aos="zoom-out-up" data-aos-duration="2000" >Educacion</h3>
+                  <h3 className="text-center aos-init" data-aos="zoom-out-up" data-aos-duration="2000" >Educación</h3>
                  <div className="me-details">
 
                      <div className="me-education bg aos-init" data-aos="flip-up" data-aos-duration="2000" >
